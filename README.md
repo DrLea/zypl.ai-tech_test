@@ -12,7 +12,7 @@ This is a FastAPI-based REST API service for managing music compositions, author
 
 
 ## Launch
-# Option 1 (Docker):
+### Option 1 (Docker):
 
 **create .env file from .env_template(P.S You can find ready to use one from old commits)**
 
@@ -20,7 +20,7 @@ This is a FastAPI-based REST API service for managing music compositions, author
 
 **go to `localhost:8080/docs`**
 
-# Option 2 (Uvicorn Standalone):
+### Option 2 (Uvicorn Standalone):
 
 **Set env files just like in env_template**
 
