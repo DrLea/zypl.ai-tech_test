@@ -18,7 +18,7 @@ This is a FastAPI-based REST API service for managing music compositions, author
 
 `docker compose up --build -d`
 
-**go to `localhost:8080/docs`**
+**go to `[localhost:8080/docs](url)`**
 
 ### Option 2 (Uvicorn Standalone):
 
@@ -26,9 +26,9 @@ This is a FastAPI-based REST API service for managing music compositions, author
 
 `pip install -r reqruirements.txt`
 
-`uvicorn api/main:app --reload --port 8080`
+`uvicorn api.main:app --reload --port 8080`
 
-**go to `localhost:8080/docs`**
+**go to `[localhost:8080/docs](url)`**
 
 
 ## Populating from CSV
