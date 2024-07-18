@@ -12,11 +12,23 @@ This is a FastAPI-based REST API service for managing music compositions, author
 
 
 ## Launch
-create .env file from .env_template(P.S You can find ready to use one from old commits)
+# Option 1 (Docker):
 
-docker compose up --build -d
+**create .env file from .env_template(P.S You can find ready to use one from old commits)**
 
-go to localhost:8080/docs
+`docker compose up --build -d`
+
+**go to `localhost:8080/docs`**
+
+# Option 2 (Uvicorn Standalone):
+
+**Set env files just like in env_template**
+
+`pip install -r reqruirements.txt`
+
+`uvicorn api/main:app --reload --port 8080`
+
+**go to `localhost:8080/docs`**
 
 
 ## Populating from CSV
@@ -34,8 +46,6 @@ Steps:
 
 4) Note: that notifications to subscribers are not sent via bulk create
 
-## PS
-I am working with FastAPI for 2 days. So there are still room for improvement, please leave PR and check for updates soon
 
 ## Refs
 [Docs](https://fastapi.tiangolo.com/tutorial/)
