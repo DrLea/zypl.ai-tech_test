@@ -19,6 +19,21 @@ docker compose up --build -d
 go to localhost:8080/docs
 
 
+## Populating from CSV
+There is a template Music.csv 
+
+Do not forget to check wheather Author and Album whose Id you pass in CSV already exist.
+
+Steps:
+
+1) Create Author
+
+2) Create Album for that Author
+
+3) Load Music from CSV with IDs of that Author and Album
+
+4) Note: that notifications to subscribers are not sent via bulk create
+
 ## PS
 I am working with FastAPI for 2 days. So there are still room for improvement, please leave PR and check for updates soon
 
